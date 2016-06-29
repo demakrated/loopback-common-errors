@@ -1,4 +1,4 @@
-== loopback-common-errors
+## loopback-common-errors
 
 Little module for using the object Error as loopback uses them for returning error responses.
 
@@ -17,7 +17,7 @@ if(err){
 }
 ```
 
-You have 4 prototyped common functions:
+You have 5 prototyped common functions:
 
 * **badRequest(msg)**: returns status 400 and default message 'Bad Request'
 * **fobidden(msg)**: returns status 403 and default message 'Forbidden'
