@@ -5,14 +5,15 @@ Little module for using the object Error as loopback uses them for returning err
 Example usage:
 
 ```sh 
+var errors = require('loopback-common-errors');
 ...
 if(user == null){
-    cb(ErrorResponse.notFound('User Not Found'));
+    cb(errors.notFound('User Not Found'));
     return;
 }
 ...
 if(err){
-    cb(ErrorResponse.serverError());
+    cb(errors.serverError());
     return;
 }
 ```
