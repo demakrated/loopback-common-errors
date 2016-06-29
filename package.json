@@ -1,6 +1,6 @@
 {
   "name": "loopback-common-errors",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "A few of common errors to use in loopback callbacks and next() functions",
   "main": "loopback-errors.js",
   "scripts": {
